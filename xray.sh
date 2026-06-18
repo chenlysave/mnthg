@@ -5,3 +5,4 @@ sudo bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-re
 sudo rm -rf /usr/local/etc/xray/config.json
 sudo wget -P /usr/local/etc/xray https://raw.githubusercontent.com/chenlysave/mnthg/refs/heads/main/config.json
 sudo systemctl restart xray
+wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && printf "\n1\n\n\n\n" | bash menu.sh
